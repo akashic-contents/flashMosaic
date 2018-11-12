@@ -1,0 +1,1 @@
+{"version":"2.0.0","contents":{"boneSetFileNames":["bn_bad.asabn","bn_good.asabn"],"skinFileNames":["sk_goodbad.asask"],"animationFileNames":["an_bad_bad.asaan","an_good_good.asaan"],"userData":{"combinationInfo":[{"boneName":"bad","animationNames":["bad_bad"],"skinNames":["goodbad"]},{"boneName":"good","animationNames":["good_good"],"skinNames":["goodbad"]}]}}}

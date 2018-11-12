@@ -1,0 +1,2598 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"assets": {
+		"before_the_start": {
+			"type": "image",
+			"width": 642,
+			"height": 1810,
+			"path": "image/before_the_start.png"
+		},
+		"description_text": {
+			"type": "image",
+			"width": 425,
+			"height": 215,
+			"path": "image/description_text.png"
+		},
+		"goodbad": {
+			"type": "image",
+			"width": 420,
+			"height": 211,
+			"path": "image/goodbad.png"
+		},
+		"img_main": {
+			"type": "image",
+			"width": 432,
+			"height": 598,
+			"path": "image/img_main.png"
+		},
+		"img_num_question": {
+			"type": "image",
+			"width": 88,
+			"height": 490,
+			"path": "image/img_num_question.png"
+		},
+		"img_num_result": {
+			"type": "image",
+			"width": 936,
+			"height": 83,
+			"path": "image/img_num_result.png"
+		},
+		"img_numbers_n": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_numbers_n.png"
+		},
+		"img_numbers_n_red": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_numbers_n_red.png"
+		},
+		"img_qa": {
+			"type": "image",
+			"width": 1022,
+			"height": 752,
+			"path": "image/img_qa.png"
+		},
+		"jingle": {
+			"type": "image",
+			"width": 331,
+			"height": 224,
+			"path": "image/jingle.png"
+		},
+		"nw_common": {
+			"type": "image",
+			"width": 1024,
+			"height": 512,
+			"path": "image/nw_common.png"
+		},
+		"nw_title": {
+			"type": "image",
+			"width": 500,
+			"height": 316,
+			"path": "image/nw_title.png"
+		},
+		"q01_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_01.png"
+		},
+		"q01_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_02.png"
+		},
+		"q01_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_03.png"
+		},
+		"q01_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_04.png"
+		},
+		"q01_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_05.png"
+		},
+		"q01_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_06.png"
+		},
+		"q01_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_07.png"
+		},
+		"q01_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_08.png"
+		},
+		"q01_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_09.png"
+		},
+		"q01_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_10.png"
+		},
+		"q01_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q01_11.png"
+		},
+		"q02_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_01.png"
+		},
+		"q02_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_02.png"
+		},
+		"q02_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_03.png"
+		},
+		"q02_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_04.png"
+		},
+		"q02_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_05.png"
+		},
+		"q02_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_06.png"
+		},
+		"q02_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_07.png"
+		},
+		"q02_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_08.png"
+		},
+		"q02_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_09.png"
+		},
+		"q02_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_10.png"
+		},
+		"q02_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q02_11.png"
+		},
+		"q03_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_01.png"
+		},
+		"q03_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_02.png"
+		},
+		"q03_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_03.png"
+		},
+		"q03_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_04.png"
+		},
+		"q03_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_05.png"
+		},
+		"q03_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_06.png"
+		},
+		"q03_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_07.png"
+		},
+		"q03_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_08.png"
+		},
+		"q03_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_09.png"
+		},
+		"q03_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_10.png"
+		},
+		"q03_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q03_11.png"
+		},
+		"q04_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_01.png"
+		},
+		"q04_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_02.png"
+		},
+		"q04_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_03.png"
+		},
+		"q04_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_04.png"
+		},
+		"q04_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_05.png"
+		},
+		"q04_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_06.png"
+		},
+		"q04_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_07.png"
+		},
+		"q04_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_08.png"
+		},
+		"q04_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_09.png"
+		},
+		"q04_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_10.png"
+		},
+		"q04_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q04_11.png"
+		},
+		"q05_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_01.png"
+		},
+		"q05_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_02.png"
+		},
+		"q05_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_03.png"
+		},
+		"q05_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_04.png"
+		},
+		"q05_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_05.png"
+		},
+		"q05_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_06.png"
+		},
+		"q05_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_07.png"
+		},
+		"q05_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_08.png"
+		},
+		"q05_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_09.png"
+		},
+		"q05_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_10.png"
+		},
+		"q05_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q05_11.png"
+		},
+		"q06_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_01.png"
+		},
+		"q06_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_02.png"
+		},
+		"q06_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_03.png"
+		},
+		"q06_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_04.png"
+		},
+		"q06_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_05.png"
+		},
+		"q06_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_06.png"
+		},
+		"q06_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_07.png"
+		},
+		"q06_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_08.png"
+		},
+		"q06_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_09.png"
+		},
+		"q06_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_10.png"
+		},
+		"q06_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q06_11.png"
+		},
+		"q07_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_01.png"
+		},
+		"q07_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_02.png"
+		},
+		"q07_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_03.png"
+		},
+		"q07_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_04.png"
+		},
+		"q07_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_05.png"
+		},
+		"q07_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_06.png"
+		},
+		"q07_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_07.png"
+		},
+		"q07_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_08.png"
+		},
+		"q07_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_09.png"
+		},
+		"q07_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_10.png"
+		},
+		"q07_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q07_11.png"
+		},
+		"q08_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_01.png"
+		},
+		"q08_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_02.png"
+		},
+		"q08_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_03.png"
+		},
+		"q08_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_04.png"
+		},
+		"q08_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_05.png"
+		},
+		"q08_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_06.png"
+		},
+		"q08_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_07.png"
+		},
+		"q08_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_08.png"
+		},
+		"q08_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_09.png"
+		},
+		"q08_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_10.png"
+		},
+		"q08_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q08_11.png"
+		},
+		"q09_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_01.png"
+		},
+		"q09_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_02.png"
+		},
+		"q09_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_03.png"
+		},
+		"q09_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_04.png"
+		},
+		"q09_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_05.png"
+		},
+		"q09_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_06.png"
+		},
+		"q09_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_07.png"
+		},
+		"q09_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_08.png"
+		},
+		"q09_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_09.png"
+		},
+		"q09_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_10.png"
+		},
+		"q09_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q09_11.png"
+		},
+		"q10_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_01.png"
+		},
+		"q10_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_02.png"
+		},
+		"q10_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_03.png"
+		},
+		"q10_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_04.png"
+		},
+		"q10_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_05.png"
+		},
+		"q10_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_06.png"
+		},
+		"q10_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_07.png"
+		},
+		"q10_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_08.png"
+		},
+		"q10_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_09.png"
+		},
+		"q10_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_10.png"
+		},
+		"q10_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q10_11.png"
+		},
+		"q11_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_01.png"
+		},
+		"q11_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_02.png"
+		},
+		"q11_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_03.png"
+		},
+		"q11_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_04.png"
+		},
+		"q11_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_05.png"
+		},
+		"q11_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_06.png"
+		},
+		"q11_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_07.png"
+		},
+		"q11_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_08.png"
+		},
+		"q11_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_09.png"
+		},
+		"q11_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_10.png"
+		},
+		"q11_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q11_11.png"
+		},
+		"q12_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_01.png"
+		},
+		"q12_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_02.png"
+		},
+		"q12_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_03.png"
+		},
+		"q12_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_04.png"
+		},
+		"q12_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_05.png"
+		},
+		"q12_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_06.png"
+		},
+		"q12_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_07.png"
+		},
+		"q12_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_08.png"
+		},
+		"q12_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_09.png"
+		},
+		"q12_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_10.png"
+		},
+		"q12_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q12_11.png"
+		},
+		"q13_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_01.png"
+		},
+		"q13_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_02.png"
+		},
+		"q13_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_03.png"
+		},
+		"q13_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_04.png"
+		},
+		"q13_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_05.png"
+		},
+		"q13_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_06.png"
+		},
+		"q13_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_07.png"
+		},
+		"q13_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_08.png"
+		},
+		"q13_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_09.png"
+		},
+		"q13_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_10.png"
+		},
+		"q13_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q13_11.png"
+		},
+		"q14_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_01.png"
+		},
+		"q14_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_02.png"
+		},
+		"q14_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_03.png"
+		},
+		"q14_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_04.png"
+		},
+		"q14_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_05.png"
+		},
+		"q14_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_06.png"
+		},
+		"q14_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_07.png"
+		},
+		"q14_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_08.png"
+		},
+		"q14_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_09.png"
+		},
+		"q14_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_10.png"
+		},
+		"q14_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q14_11.png"
+		},
+		"q15_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_01.png"
+		},
+		"q15_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_02.png"
+		},
+		"q15_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_03.png"
+		},
+		"q15_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_04.png"
+		},
+		"q15_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_05.png"
+		},
+		"q15_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_06.png"
+		},
+		"q15_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_07.png"
+		},
+		"q15_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_08.png"
+		},
+		"q15_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_09.png"
+		},
+		"q15_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_10.png"
+		},
+		"q15_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q15_11.png"
+		},
+		"q16_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_01.png"
+		},
+		"q16_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_02.png"
+		},
+		"q16_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_03.png"
+		},
+		"q16_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_04.png"
+		},
+		"q16_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_05.png"
+		},
+		"q16_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_06.png"
+		},
+		"q16_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_07.png"
+		},
+		"q16_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_08.png"
+		},
+		"q16_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_09.png"
+		},
+		"q16_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_10.png"
+		},
+		"q16_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q16_11.png"
+		},
+		"q17_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_01.png"
+		},
+		"q17_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_02.png"
+		},
+		"q17_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_03.png"
+		},
+		"q17_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_04.png"
+		},
+		"q17_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_05.png"
+		},
+		"q17_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_06.png"
+		},
+		"q17_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_07.png"
+		},
+		"q17_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_08.png"
+		},
+		"q17_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_09.png"
+		},
+		"q17_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_10.png"
+		},
+		"q17_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q17_11.png"
+		},
+		"q18_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_01.png"
+		},
+		"q18_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_02.png"
+		},
+		"q18_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_03.png"
+		},
+		"q18_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_04.png"
+		},
+		"q18_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_05.png"
+		},
+		"q18_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_06.png"
+		},
+		"q18_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_07.png"
+		},
+		"q18_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_08.png"
+		},
+		"q18_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_09.png"
+		},
+		"q18_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_10.png"
+		},
+		"q18_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q18_11.png"
+		},
+		"q19_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_01.png"
+		},
+		"q19_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_02.png"
+		},
+		"q19_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_03.png"
+		},
+		"q19_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_04.png"
+		},
+		"q19_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_05.png"
+		},
+		"q19_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_06.png"
+		},
+		"q19_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_07.png"
+		},
+		"q19_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_08.png"
+		},
+		"q19_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_09.png"
+		},
+		"q19_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_10.png"
+		},
+		"q19_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q19_11.png"
+		},
+		"q20_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_01.png"
+		},
+		"q20_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_02.png"
+		},
+		"q20_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_03.png"
+		},
+		"q20_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_04.png"
+		},
+		"q20_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_05.png"
+		},
+		"q20_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_06.png"
+		},
+		"q20_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_07.png"
+		},
+		"q20_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_08.png"
+		},
+		"q20_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_09.png"
+		},
+		"q20_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_10.png"
+		},
+		"q20_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q20_11.png"
+		},
+		"q21_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_01.png"
+		},
+		"q21_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_02.png"
+		},
+		"q21_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_03.png"
+		},
+		"q21_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_04.png"
+		},
+		"q21_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_05.png"
+		},
+		"q21_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_06.png"
+		},
+		"q21_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_07.png"
+		},
+		"q21_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_08.png"
+		},
+		"q21_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_09.png"
+		},
+		"q21_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_10.png"
+		},
+		"q21_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q21_11.png"
+		},
+		"q22_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_01.png"
+		},
+		"q22_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_02.png"
+		},
+		"q22_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_03.png"
+		},
+		"q22_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_04.png"
+		},
+		"q22_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_05.png"
+		},
+		"q22_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_06.png"
+		},
+		"q22_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_07.png"
+		},
+		"q22_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_08.png"
+		},
+		"q22_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_09.png"
+		},
+		"q22_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_10.png"
+		},
+		"q22_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q22_11.png"
+		},
+		"q23_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_01.png"
+		},
+		"q23_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_02.png"
+		},
+		"q23_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_03.png"
+		},
+		"q23_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_04.png"
+		},
+		"q23_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_05.png"
+		},
+		"q23_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_06.png"
+		},
+		"q23_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_07.png"
+		},
+		"q23_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_08.png"
+		},
+		"q23_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_09.png"
+		},
+		"q23_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_10.png"
+		},
+		"q23_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q23_11.png"
+		},
+		"q24_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_01.png"
+		},
+		"q24_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_02.png"
+		},
+		"q24_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_03.png"
+		},
+		"q24_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_04.png"
+		},
+		"q24_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_05.png"
+		},
+		"q24_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_06.png"
+		},
+		"q24_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_07.png"
+		},
+		"q24_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_08.png"
+		},
+		"q24_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_09.png"
+		},
+		"q24_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_10.png"
+		},
+		"q24_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q24_11.png"
+		},
+		"q25_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_01.png"
+		},
+		"q25_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_02.png"
+		},
+		"q25_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_03.png"
+		},
+		"q25_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_04.png"
+		},
+		"q25_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_05.png"
+		},
+		"q25_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_06.png"
+		},
+		"q25_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_07.png"
+		},
+		"q25_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_08.png"
+		},
+		"q25_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_09.png"
+		},
+		"q25_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_10.png"
+		},
+		"q25_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q25_11.png"
+		},
+		"q26_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_01.png"
+		},
+		"q26_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_02.png"
+		},
+		"q26_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_03.png"
+		},
+		"q26_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_04.png"
+		},
+		"q26_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_05.png"
+		},
+		"q26_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_06.png"
+		},
+		"q26_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_07.png"
+		},
+		"q26_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_08.png"
+		},
+		"q26_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_09.png"
+		},
+		"q26_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_10.png"
+		},
+		"q26_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q26_11.png"
+		},
+		"q27_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_01.png"
+		},
+		"q27_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_02.png"
+		},
+		"q27_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_03.png"
+		},
+		"q27_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_04.png"
+		},
+		"q27_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_05.png"
+		},
+		"q27_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_06.png"
+		},
+		"q27_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_07.png"
+		},
+		"q27_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_08.png"
+		},
+		"q27_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_09.png"
+		},
+		"q27_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_10.png"
+		},
+		"q27_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q27_11.png"
+		},
+		"q28_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_01.png"
+		},
+		"q28_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_02.png"
+		},
+		"q28_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_03.png"
+		},
+		"q28_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_04.png"
+		},
+		"q28_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_05.png"
+		},
+		"q28_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_06.png"
+		},
+		"q28_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_07.png"
+		},
+		"q28_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_08.png"
+		},
+		"q28_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_09.png"
+		},
+		"q28_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_10.png"
+		},
+		"q28_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q28_11.png"
+		},
+		"q29_01": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_01.png"
+		},
+		"q29_02": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_02.png"
+		},
+		"q29_03": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_03.png"
+		},
+		"q29_04": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_04.png"
+		},
+		"q29_05": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_05.png"
+		},
+		"q29_06": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_06.png"
+		},
+		"q29_07": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_07.png"
+		},
+		"q29_08": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_08.png"
+		},
+		"q29_09": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_09.png"
+		},
+		"q29_10": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_10.png"
+		},
+		"q29_11": {
+			"type": "image",
+			"width": 325,
+			"height": 200,
+			"path": "image/q29_11.png"
+		},
+		"result_chara_img_01": {
+			"type": "image",
+			"width": 410,
+			"height": 120,
+			"path": "image/result_chara_img_01.png"
+		},
+		"result_chara_img_02": {
+			"type": "image",
+			"width": 410,
+			"height": 120,
+			"path": "image/result_chara_img_02.png"
+		},
+		"result_chara_img_03": {
+			"type": "image",
+			"width": 410,
+			"height": 120,
+			"path": "image/result_chara_img_03.png"
+		},
+		"title_logo": {
+			"type": "image",
+			"width": 460,
+			"height": 200,
+			"path": "image/title_logo.png"
+		},
+		"asaInfo": {
+			"type": "script",
+			"path": "script/classes/asaInfo.js",
+			"global": true
+		},
+		"assetInfo": {
+			"type": "script",
+			"path": "script/classes/assetInfo.js",
+			"global": true
+		},
+		"button": {
+			"type": "script",
+			"path": "script/classes/button.js",
+			"global": true
+		},
+		"define": {
+			"type": "script",
+			"path": "script/classes/define.js",
+			"global": true
+		},
+		"difficultyParameters": {
+			"type": "script",
+			"path": "script/classes/difficultyParameters.js",
+			"global": true
+		},
+		"gameCreator": {
+			"type": "script",
+			"path": "script/classes/gameCreator.js",
+			"global": true
+		},
+		"gameParameterReader": {
+			"type": "script",
+			"path": "script/classes/gameParameterReader.js",
+			"global": true
+		},
+		"gameParameters": {
+			"type": "script",
+			"path": "script/classes/gameParameters.js",
+			"global": true
+		},
+		"gameSceneContext": {
+			"type": "script",
+			"path": "script/classes/gameSceneContext.js",
+			"global": true
+		},
+		"gameSceneView": {
+			"type": "script",
+			"path": "script/classes/gameSceneView.js",
+			"global": true
+		},
+		"miscAssetInfo": {
+			"type": "script",
+			"path": "script/classes/miscAssetInfo.js",
+			"global": true
+		},
+		"mosaic": {
+			"type": "script",
+			"path": "script/classes/mosaic.js",
+			"global": true
+		},
+		"mosaicGame": {
+			"type": "script",
+			"path": "script/classes/mosaicGame.js",
+			"global": true
+		},
+		"quizDataType": {
+			"type": "script",
+			"path": "script/classes/quizDataType.js",
+			"global": true
+		},
+		"score": {
+			"type": "script",
+			"path": "script/classes/score.js",
+			"global": true
+		},
+		"soundInfo": {
+			"type": "script",
+			"path": "script/classes/soundInfo.js",
+			"global": true
+		},
+		"stateBaseClass": {
+			"type": "script",
+			"path": "script/classes/stateBaseClass.js",
+			"global": true
+		},
+		"stateMachineClass": {
+			"type": "script",
+			"path": "script/classes/stateMachineClass.js",
+			"global": true
+		},
+		"timerGauge": {
+			"type": "script",
+			"path": "script/classes/timerGauge.js",
+			"global": true
+		},
+		"timerLabel": {
+			"type": "script",
+			"path": "script/classes/timerLabel.js",
+			"global": true
+		},
+		"cautionFilledRect": {
+			"type": "script",
+			"path": "script/common/cautionFilledRect.js",
+			"global": true
+		},
+		"commonAsaInfo": {
+			"type": "script",
+			"path": "script/common/commonAsaInfo.js",
+			"global": true
+		},
+		"commonAssetInfo": {
+			"type": "script",
+			"path": "script/common/commonAssetInfo.js",
+			"global": true
+		},
+		"commonDefine": {
+			"type": "script",
+			"path": "script/common/commonDefine.js",
+			"global": true
+		},
+		"commonSoundInfo": {
+			"type": "script",
+			"path": "script/common/commonSoundInfo.js",
+			"global": true
+		},
+		"descriptionSubscene": {
+			"type": "script",
+			"path": "script/common/descriptionSubscene.js",
+			"global": true
+		},
+		"gameSubscene": {
+			"type": "script",
+			"path": "script/common/gameSubscene.js",
+			"global": true
+		},
+		"informationSubscene": {
+			"type": "script",
+			"path": "script/common/informationSubscene.js",
+			"global": true
+		},
+		"mainSceneController": {
+			"type": "script",
+			"path": "script/common/mainSceneController.js",
+			"global": true
+		},
+		"resultSubscene": {
+			"type": "script",
+			"path": "script/common/resultSubscene.js",
+			"global": true
+		},
+		"titleSubscene": {
+			"type": "script",
+			"path": "script/common/titleSubscene.js",
+			"global": true
+		},
+		"wipeManager": {
+			"type": "script",
+			"path": "script/common/wipeManager.js",
+			"global": true
+		},
+		"commonParameterReader": {
+			"type": "script",
+			"path": "script/commonNicowariGame/commonParameterReader.js",
+			"global": true
+		},
+		"gameBase": {
+			"type": "script",
+			"path": "script/commonNicowariGame/gameBase.js",
+			"global": true
+		},
+		"rireGameParameters": {
+			"type": "script",
+			"path": "script/commonNicowariGame/rireGameParameters.js",
+			"global": true
+		},
+		"sceneController": {
+			"type": "script",
+			"path": "script/commonNicowariGame/sceneController.js",
+			"global": true
+		},
+		"subscene": {
+			"type": "script",
+			"path": "script/commonNicowariGame/subscene.js",
+			"global": true
+		},
+		"asaInfoType": {
+			"type": "script",
+			"path": "script/commonTypes/asaInfoType.js",
+			"global": true
+		},
+		"assetInfoType": {
+			"type": "script",
+			"path": "script/commonTypes/assetInfoType.js",
+			"global": true
+		},
+		"miscAssetInfoType": {
+			"type": "script",
+			"path": "script/commonTypes/miscAssetInfoType.js",
+			"global": true
+		},
+		"soundInfoType": {
+			"type": "script",
+			"path": "script/commonTypes/soundInfoType.js",
+			"global": true
+		},
+		"videoAssetInfoType": {
+			"type": "script",
+			"path": "script/commonTypes/videoAssetInfoType.js",
+			"global": true
+		},
+		"mainScene": {
+			"type": "script",
+			"path": "script/mainScene.js",
+			"global": true
+		},
+		"asaEx": {
+			"type": "script",
+			"path": "script/util/asaEx.js",
+			"global": true
+		},
+		"audioUtil": {
+			"type": "script",
+			"path": "script/util/audioUtil.js",
+			"global": true
+		},
+		"entityUtil": {
+			"type": "script",
+			"path": "script/util/entityUtil.js",
+			"global": true
+		},
+		"gameUtil": {
+			"type": "script",
+			"path": "script/util/gameUtil.js",
+			"global": true
+		},
+		"spriteSheetTypes": {
+			"type": "script",
+			"path": "script/util/spriteSheetTypes.js",
+			"global": true
+		},
+		"spriteUtil": {
+			"type": "script",
+			"path": "script/util/spriteUtil.js",
+			"global": true
+		},
+		"tiledUtil": {
+			"type": "script",
+			"path": "script/util/tiledUtil.js",
+			"global": true
+		},
+		"an_bad_bad": {
+			"type": "text",
+			"path": "text/an_bad_bad.asaan"
+		},
+		"an_before_the_start_still": {
+			"type": "text",
+			"path": "text/an_before_the_start_still.asaan"
+		},
+		"an_before_the_start_still_1": {
+			"type": "text",
+			"path": "text/an_before_the_start_still_1.asaan"
+		},
+		"an_before_the_start_still_2": {
+			"type": "text",
+			"path": "text/an_before_the_start_still_2.asaan"
+		},
+		"an_before_the_start_still_3": {
+			"type": "text",
+			"path": "text/an_before_the_start_still_3.asaan"
+		},
+		"an_description_description": {
+			"type": "text",
+			"path": "text/an_description_description.asaan"
+		},
+		"an_fade_LtoR": {
+			"type": "text",
+			"path": "text/an_fade_LtoR.asaan"
+		},
+		"an_fade_RtoL": {
+			"type": "text",
+			"path": "text/an_fade_RtoL.asaan"
+		},
+		"an_gameclear_gameclear": {
+			"type": "text",
+			"path": "text/an_gameclear_gameclear.asaan"
+		},
+		"an_gameover_gameover": {
+			"type": "text",
+			"path": "text/an_gameover_gameover.asaan"
+		},
+		"an_good_good": {
+			"type": "text",
+			"path": "text/an_good_good.asaan"
+		},
+		"an_jingle_end_jingle_end": {
+			"type": "text",
+			"path": "text/an_jingle_end_jingle_end.asaan"
+		},
+		"an_jingle_timeup_jingle_timeup": {
+			"type": "text",
+			"path": "text/an_jingle_timeup_jingle_timeup.asaan"
+		},
+		"an_readygo_readygo": {
+			"type": "text",
+			"path": "text/an_readygo_readygo.asaan"
+		},
+		"an_result_result": {
+			"type": "text",
+			"path": "text/an_result_result.asaan"
+		},
+		"an_timeout_timeout": {
+			"type": "text",
+			"path": "text/an_timeout_timeout.asaan"
+		},
+		"an_timeup_timeup": {
+			"type": "text",
+			"path": "text/an_timeup_timeup.asaan"
+		},
+		"an_title_title": {
+			"type": "text",
+			"path": "text/an_title_title.asaan"
+		},
+		"bn_bad": {
+			"type": "text",
+			"path": "text/bn_bad.asabn"
+		},
+		"bn_before_the_start": {
+			"type": "text",
+			"path": "text/bn_before_the_start.asabn"
+		},
+		"bn_description": {
+			"type": "text",
+			"path": "text/bn_description.asabn"
+		},
+		"bn_fade": {
+			"type": "text",
+			"path": "text/bn_fade.asabn"
+		},
+		"bn_gameclear": {
+			"type": "text",
+			"path": "text/bn_gameclear.asabn"
+		},
+		"bn_gameover": {
+			"type": "text",
+			"path": "text/bn_gameover.asabn"
+		},
+		"bn_good": {
+			"type": "text",
+			"path": "text/bn_good.asabn"
+		},
+		"bn_jingle_end": {
+			"type": "text",
+			"path": "text/bn_jingle_end.asabn"
+		},
+		"bn_jingle_timeup": {
+			"type": "text",
+			"path": "text/bn_jingle_timeup.asabn"
+		},
+		"bn_readygo": {
+			"type": "text",
+			"path": "text/bn_readygo.asabn"
+		},
+		"bn_result": {
+			"type": "text",
+			"path": "text/bn_result.asabn"
+		},
+		"bn_timeout": {
+			"type": "text",
+			"path": "text/bn_timeout.asabn"
+		},
+		"bn_timeup": {
+			"type": "text",
+			"path": "text/bn_timeup.asabn"
+		},
+		"bn_title": {
+			"type": "text",
+			"path": "text/bn_title.asabn"
+		},
+		"json_difficultyParameters": {
+			"type": "text",
+			"path": "text/json_difficultyParameters.json"
+		},
+		"json_main": {
+			"type": "text",
+			"path": "text/json_main.json"
+		},
+		"json_num_question": {
+			"type": "text",
+			"path": "text/json_num_question.json"
+		},
+		"json_num_result": {
+			"type": "text",
+			"path": "text/json_num_result.json"
+		},
+		"json_numbers_n": {
+			"type": "text",
+			"path": "text/json_numbers_n.json"
+		},
+		"json_numbers_n_red": {
+			"type": "text",
+			"path": "text/json_numbers_n_red.json"
+		},
+		"json_qa": {
+			"type": "text",
+			"path": "text/json_qa.json"
+		},
+		"pj_before_the_start": {
+			"type": "text",
+			"path": "text/pj_before_the_start.asapj",
+			"global": true
+		},
+		"pj_goodbad": {
+			"type": "text",
+			"path": "text/pj_goodbad.asapj",
+			"global": true
+		},
+		"pj_jingle": {
+			"type": "text",
+			"path": "text/pj_jingle.asapj",
+			"global": true
+		},
+		"pj_nw_common": {
+			"type": "text",
+			"path": "text/pj_nw_common.asapj",
+			"global": true
+		},
+		"pj_nw_title": {
+			"type": "text",
+			"path": "text/pj_nw_title.asapj",
+			"global": true
+		},
+		"sk_before_the_start": {
+			"type": "text",
+			"path": "text/sk_before_the_start.asask"
+		},
+		"sk_description_text": {
+			"type": "text",
+			"path": "text/sk_description_text.asask"
+		},
+		"sk_goodbad": {
+			"type": "text",
+			"path": "text/sk_goodbad.asask"
+		},
+		"sk_jingle": {
+			"type": "text",
+			"path": "text/sk_jingle.asask"
+		},
+		"sk_nw_common": {
+			"type": "text",
+			"path": "text/sk_nw_common.asask"
+		},
+		"sk_nw_title": {
+			"type": "text",
+			"path": "text/sk_nw_title.asask"
+		},
+		"sk_title_logo": {
+			"type": "text",
+			"path": "text/sk_title_logo.asask"
+		},
+		"bgm_TickCount": {
+			"type": "audio",
+			"path": "audio/bgm/bgm_TickCount/bgm_TickCount",
+			"systemId": "music",
+			"duration": 17559
+		},
+		"bgm_quiz": {
+			"type": "audio",
+			"path": "audio/bgm/bgm_quiz/bgm_quiz",
+			"systemId": "music",
+			"duration": 15486
+		},
+		"se_No8_RollCount2": {
+			"type": "audio",
+			"path": "audio/common/se_No8_RollCount2/se_No8_RollCount2",
+			"systemId": "sound",
+			"duration": 3995
+		},
+		"se_No8_RollCount_Finish": {
+			"type": "audio",
+			"path": "audio/common/se_No8_RollCount_Finish/se_No8_RollCount_Finish",
+			"systemId": "sound",
+			"duration": 665
+		},
+		"se_ready_start": {
+			"type": "audio",
+			"path": "audio/common/se_ready_start/se_ready_start",
+			"systemId": "sound",
+			"duration": 1701
+		},
+		"se_timeup": {
+			"type": "audio",
+			"path": "audio/common/se_timeup/se_timeup",
+			"systemId": "sound",
+			"duration": 1080
+		},
+		"se_No12_Answer2": {
+			"type": "audio",
+			"path": "audio/se/se_No12_Answer2/se_No12_Answer2",
+			"systemId": "sound",
+			"duration": 1416
+		},
+		"se_No13_BadAnswer2": {
+			"type": "audio",
+			"path": "audio/se/se_No13_BadAnswer2/se_No13_BadAnswer2",
+			"systemId": "sound",
+			"duration": 1001
+		},
+		"se_No14_TimeUp": {
+			"type": "audio",
+			"path": "audio/se/se_No14_TimeUp/se_No14_TimeUp",
+			"systemId": "sound",
+			"duration": 3198
+		},
+		"se_No15_DrumRoll": {
+			"type": "audio",
+			"path": "audio/se/se_No15_DrumRoll/se_No15_DrumRoll",
+			"systemId": "sound",
+			"duration": 4000
+		},
+		"se_No15_DrumRoll_Finish": {
+			"type": "audio",
+			"path": "audio/se/se_No15_DrumRoll_Finish/se_No15_DrumRoll_Finish",
+			"systemId": "sound",
+			"duration": 1673
+		},
+		"se_No3_TimeUp": {
+			"type": "audio",
+			"path": "audio/se/se_No3_TimeUp/se_No3_TimeUp",
+			"systemId": "sound",
+			"duration": 1502
+		},
+		"se_No9_Question": {
+			"type": "audio",
+			"path": "audio/se/se_No9_Question/se_No9_Question",
+			"systemId": "sound",
+			"duration": 1445
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-animation/lib/AABB.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Actor.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/AnimationHandlerParams.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/AnimeParams.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Attachment.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/AttrId.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Bone.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/BoneCellCollider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/BoneSet.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/BoxVolume.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Cell.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CellAttachment.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CellAttachmentCollider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CircleCollider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CircleVolume.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Collider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Container.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/FinalizedCell.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Posture.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Resource.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Size2.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Skeleton.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Skin.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Vector2.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/index.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-animation": "node_modules/@akashic-extension/akashic-animation/lib/index.js",
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	},
+	"environment": {
+		"niconico": {
+			"supportedModes": [
+				"single",
+				"ranking"
+			]
+		}
+	}
+}

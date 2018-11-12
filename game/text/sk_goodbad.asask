@@ -1,0 +1,1 @@
+{"version":"2.0.0","contents":{"cells":{"bad":{"pos":{"x":3,"y":3},"size":{"width":205,"height":205},"pivot":{"x":0,"y":0},"rz":0,"name":"bad"},"good":{"pos":{"x":212,"y":3},"size":{"width":205,"height":205},"pivot":{"x":0,"y":0},"rz":0,"name":"good"}},"name":"goodbad","imageAssetName":"goodbad","imageSizeW":420,"imageSizeH":211}}
