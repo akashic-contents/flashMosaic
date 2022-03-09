@@ -232,9 +232,8 @@ export class MosaicGame extends GameBase {
 			}
 		}
 		this.timerLabel.setTimeCount(timeLimit);
-		this.timerLabel.timeCaution.handle(this, this.onTimeCaution);
-		this.timerLabel.timeCautionCancel.handle(
-			this, this.onTimeCautionCancel);
+		this.timerLabel.timeCaution.add(this.handleTimeCaution, this);
+		this.timerLabel.timeCautionCancel.add(this.handleTimeCautionCancel, this);
 
 		// 回答時間ゲージ表示
 		this.timerGauge.showContent();
@@ -261,8 +260,8 @@ export class MosaicGame extends GameBase {
 		this.stateMachine.resetState();
 		this.view.clearForRetry();
 
-		this.timerLabel.timeCaution.removeAll(this);
-		this.timerLabel.timeCautionCancel.removeAll(this);
+		this.timerLabel.timeCaution.removeAll({owner: this});
+		this.timerLabel.timeCautionCancel.removeAll({owner: this});
 		super.hideContent();
 	}
 
@@ -271,7 +270,7 @@ export class MosaicGame extends GameBase {
 	 * ゲーム画面でない期間には呼ばれない。
 	 * @override
 	 */
-	onUpdate(): void {
+	handleUpdate(): void {
 		if (this.inGame) {
 			this.stateMachine.onUpdate();
 			if (!this.inTimerPause || define.DISABLE_TIMER_PAUSE) {
@@ -286,14 +285,14 @@ export class MosaicGame extends GameBase {
 	/**
 	 * TimerLabel#timeCautionのハンドラ
 	 */
-	private onTimeCaution(): void {
+	private handleTimeCaution(): void {
 		this.timeCaution.fire();
 	}
 
 	/**
 	 * TimerLabel#timeCautionCancelのハンドラ
 	 */
-	private onTimeCautionCancel(): void {
+	private handleTimeCautionCancel(): void {
 		this.timeCautionCancel.fire();
 	}
 
@@ -310,7 +309,7 @@ export class MosaicGame extends GameBase {
 		}
 		audioUtil.play(SoundInfo.seSet.end);
 		this.inGame = false;
-		this.scene.pointDownCapture.removeAll(this);
+		this.scene.onPointDownCapture.removeAll({owner: this});
 		audioUtil.stop(SoundInfo.bgmSet.thinkingTime);
 		gameUtil.setGameScore(this.scoreValue);
 		// 呼び出すトリガーによって共通フローのジングルアニメが変化する
@@ -399,9 +398,9 @@ export class MosaicGame extends GameBase {
 		audioUtil.play(SoundInfo.seSet.question);
 		this.view.showQuestionNumber(this.questionNo);
 
-		this.scene.setTimeout(1000, (): void => {
+		this.scene.setTimeout((): void => {
 			this.stateMachine.transition(this.playState);
-		});
+		}, 1000);
 	}
 	/**
 	 * 「第～問」表示ステート終了時に呼ばれるメソッド
@@ -416,10 +415,10 @@ export class MosaicGame extends GameBase {
 	private enterPlay(): void {
 		audioUtil.play(SoundInfo.bgmSet.thinkingTime);
 		this.view.startQuiz((index: number): void => {
-			this.onAnswer(index);
+			this.handleAnswer(index);
 		});
 		// 回答ボタンクリック
-		this.scene.pointDownCapture.handle(this, this.handlePlayStatePointDown);
+		this.scene.onPointDownCapture.add(this.handlePlayStatePointDown, this);
 		this.inTimerPause = false;
 	}
 	/**
@@ -437,7 +436,7 @@ export class MosaicGame extends GameBase {
 	 * 回答ボタン押下時のハンドラ関数
 	 * @param {number} _index 回答ボタン番号
 	 */
-	private onAnswer(_index: number): void {
+	private handleAnswer(_index: number): void {
 		// ボタンが押されたら
 		this.flgAnswer = true;
 		audioUtil.stop(SoundInfo.bgmSet.thinkingTime);
@@ -516,7 +515,7 @@ export class MosaicGame extends GameBase {
 	 */
 	private exitPlay(): void {
 		this.view.finishQuiz();
-		this.scene.pointDownCapture.removeAll(this);
+		this.scene.onPointDownCapture.removeAll({owner: this});
 	}
 
 	/**
@@ -580,10 +579,10 @@ export class MosaicGame extends GameBase {
 			audioUtil.stop(SoundInfo.seSet.drumRoll);
 			this.view.showAnswer();
 			audioUtil.play(SoundInfo.seSet.drumRollFinish);
-			this.scene.setTimeout(1500, (): void => {
+			this.scene.setTimeout((): void => {
 				// console.log("stepSkipMosaic: scoreValue:" + this.scoreValue + ".");
 				this.goNextQuestion();
-			});
+			}, 1500);
 		}
 	}
 	/**

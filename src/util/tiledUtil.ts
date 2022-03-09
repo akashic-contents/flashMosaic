@@ -1,5 +1,3 @@
-import { AssetMapType } from "./gameUtil";
-
 /**
  * Tiledのデータを扱うユーティリティ関数群
  */
@@ -90,18 +88,11 @@ export namespace tiledUtil {
 	/**
 	 * jsonからMapオブジェクトを生成する
 	 * @param _mapJsonName jsonアセット名
-	 * @param opt_assets   (optional)g.Assetのマップ
-	 * （省略時はg.game.scene().assetsを使用する）
 	 * @return             生成したMapオブジェクト
 	 */
-	export function loadMapdata(
-		_mapJsonName: string, opt_assets?: AssetMapType): MapFormat {
-		if (!opt_assets) {
-			opt_assets = g.game.scene().assets;
-		}
+	export function loadMapdata(_mapJsonName: string): MapFormat {
 		// console.log("loadMapdata: _mapJsonName:"+_mapJsonName+", keys(opt_assets):"+Object.keys(opt_assets).join()+".");
-		const map: MapFormat = JSON.parse(
-			(<g.TextAsset>opt_assets[_mapJsonName]).data);
+		const map: MapFormat = g.game.scene().asset.getJSONContentById(_mapJsonName);
 		return map;
 	}
 
@@ -117,11 +108,11 @@ export namespace tiledUtil {
 	 * @return                    生成したMapオブジェクト
 	 */
 	export function getObjects(
-		_mapJsonName: string, opt_assets?: AssetMapType,
+		_mapJsonName: string,
 		opt_enableOffset: boolean = false,
 		opt_useLayerVisible: boolean = false
 	): ObjectFormat[] {
-		const map = loadMapdata(_mapJsonName, opt_assets);
+		const map = loadMapdata(_mapJsonName);
 		const layers = map.layers;
 		const iEnd = layers.length;
 		let resAry: ObjectFormat[] = [];
@@ -149,14 +140,11 @@ export namespace tiledUtil {
 	/**
 	 * jsonからObjectLayerのobjectsを2次元配列で取得する
 	 * @param _mapJsonName jsonアセット名
-	 * @param opt_assets (optional)g.Assetのマップ
-	 * （省略時はg.game.scene().assetsを使用する）
 	 * @return           生成したMapオブジェクト
 	 */
-	export function getObjects2Array(
-		_mapJsonName: string, opt_assets?: AssetMapType): ObjectFormat[][] {
+	export function getObjects2Array(_mapJsonName: string): ObjectFormat[][] {
 		const resObjAry: ObjectFormat[][] = [];
-		const map = loadMapdata(_mapJsonName, opt_assets);
+		const map = loadMapdata(_mapJsonName);
 		const layers = map.layers;
 		const iEnd = layers.length;
 		for (let i = 0; i < iEnd; ++i) {

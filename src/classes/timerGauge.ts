@@ -202,9 +202,9 @@ export class TimerGauge extends g.E {
 		// スプライトを入れ替える
 		this.changeSprite();
 
-		this.intervalId = this.scene.setInterval(200, this, () => {
+		this.intervalId = this.scene.setInterval(() => {
 			this.changeSprite();
-		});
+		}, 200, this);
 	}
 
 	/**

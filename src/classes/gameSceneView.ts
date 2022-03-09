@@ -22,10 +22,6 @@ export class GameSceneView extends g.E {
 
 	/** ボタン管理クラスのインスタンス */
 	private button: Button;
-	/** モザイク画像に下に置く背景 */
-	private bgFrame: g.Sprite;
-	/** モザイク画像に上に置く枠 */
-	private frame: g.Sprite;
 	/** 「正解は」画像 */
 	private correctIs: g.Sprite;
 	/** 正解文字列画像 */
@@ -77,7 +73,7 @@ export class GameSceneView extends g.E {
 		_label: g.Label, _font: g.BitmapFont, _maxlen: number): void {
 		_label.x += _font.defaultGlyphWidth;  // 右端へ
 		// ラベルを右寄せ
-		_label.aligning(_maxlen * _font.defaultGlyphWidth, g.TextAlign.Right);
+		_label.aligning(_maxlen * _font.defaultGlyphWidth, "right");
 		_label.x -= (_maxlen * _font.defaultGlyphWidth);  // 位置調整
 	}
 
@@ -109,12 +105,12 @@ export class GameSceneView extends g.E {
 
 		const answer = this.answer = new g.Sprite({
 			scene: scene,
-			src: scene.assets[context.aryAnswers[DUMMY_CURRENT_QUESTION]]
+			src: scene.asset.getImageById(context.aryAnswers[DUMMY_CURRENT_QUESTION])
 		});
 		answer.moveTo(mosaic.spr.x, mosaic.spr.y);
 		answer.hide();
 
-		const bgFrame = this.bgFrame = spriteUtil.createFrameSprite(
+		const bgFrame = spriteUtil.createFrameSprite(
 			imgMain.spriteParam,
 			imgMain.jsonSpriteFrameMap,
 			AssetInfo.mains.frames.mainBg);
@@ -134,7 +130,7 @@ export class GameSceneView extends g.E {
 		correctIs.moveTo(define.CORRECT_IS_POS);
 		correctIs.hide();
 
-		const frame = this.frame = spriteUtil.createFrameSprite(
+		const frame = spriteUtil.createFrameSprite(
 			imgMain.spriteParam,
 			imgMain.jsonSpriteFrameMap,
 			AssetInfo.mains.frames.mainFrame);
@@ -144,14 +140,13 @@ export class GameSceneView extends g.E {
 			scene, AsaInfo.goodBad.pj, AsaInfo.goodBad.anim.good);
 		goodBad.moveTo(CENTER.x, define.GOODBAD_Y);
 		goodBad.hide();
-		goodBad.update.handle(this, spriteUtil.makeActorUpdater(goodBad));
+		goodBad.onUpdate.add(spriteUtil.makeActorUpdater(goodBad), this);
 
 		const jingleTimeup = this.jingleTimeup = new asaEx.Actor(
 			scene, AsaInfo.jingle.pj, AsaInfo.jingle.anim.timeup);
 		jingleTimeup.moveTo(CENTER.x, define.JINGLE_TIMEUP_Y);
 		jingleTimeup.hide();
-		jingleTimeup.update.handle(
-			this, spriteUtil.makeActorUpdater(jingleTimeup));
+		jingleTimeup.onUpdate.add(spriteUtil.makeActorUpdater(jingleTimeup), this);
 
 		this.point = new Score(100);
 
@@ -159,7 +154,7 @@ export class GameSceneView extends g.E {
 			AssetInfo.numQuestion);
 		const quest = this.questLabel = entityUtil.createNumLabel(
 			scene, fontQuestion, 5);
-		quest.textAlign = g.TextAlign.Center;
+		quest.textAlign = "center";
 		quest.text = "第" + DUMMY_CURRENT_QUESTION + "問";
 		quest.moveTo(CENTER.x - (quest.width / 2), define.QUESTION_NO_Y);
 		quest.hide();
@@ -235,12 +230,12 @@ export class GameSceneView extends g.E {
 	startQuiz(_onAnswer: (index: number) => void): void {
 		entityUtil.showEntity(this.mosaic.spr);
 		this.button.showButtonTexts();
-		this.button.onCollisionTrigger.handle(this, (i: number) => {
+		this.button.onCollisionTrigger.add((i: number) => {
 			if (_onAnswer) {
 				_onAnswer(i);
 			}
 			return true;
-		});
+		}, this);
 	}
 
 	/**
@@ -273,7 +268,7 @@ export class GameSceneView extends g.E {
 		}
 		this.goodBad.show();
 
-		this.goodBad.update.handle(this, (): boolean => {
+		this.goodBad.onUpdate.add((): boolean => {
 			if (this.goodBad.currentFrame >=
 				(this.goodBad.animation.frameCount - 1)) {
 				this.goodBad.hide();
@@ -284,7 +279,7 @@ export class GameSceneView extends g.E {
 				return true;
 			}
 			return false;
-		});
+		}, this);
 	}
 
 	/**
@@ -296,21 +291,21 @@ export class GameSceneView extends g.E {
 			AsaInfo.jingle.anim.timeup, 0, false, 1.0);
 		this.jingleTimeup.show();
 		this.jingleTimeup.modified();
-		this.jingleTimeup.ended.handle(this, (): boolean => {
+		this.jingleTimeup.ended.add((): boolean => {
 			this.jingleTimeup.hide();
 			if (_onFinish) {
 				_onFinish();
 				_onFinish = null;
 			}
 			return true;
-		});
+		}, this);
 	}
 
 	/**
 	 * 回答受付終了時の処理を行うメソッド
 	 */
 	finishQuiz(): void {
-		this.button.onCollisionTrigger.removeAll(this);
+		this.button.onCollisionTrigger.removeAll({owner: this});
 	}
 
 	/**
@@ -321,7 +316,7 @@ export class GameSceneView extends g.E {
 		this.correctIs.show();
 		spriteUtil.changeSpriteSurface(
 			this.answer,
-			this.scene.assets[this.context.aryAnswers[_currentQuestion]]);
+			this.scene.asset.getImageById(this.context.aryAnswers[_currentQuestion]));
 	}
 	/**
 	 * 正解表示を開始するメソッド
@@ -356,8 +351,6 @@ export class GameSceneView extends g.E {
 		this.layerMosaic = undefined;
 		this.layerUi = undefined;
 		this.button = undefined;
-		this.bgFrame = undefined;
-		this.frame = undefined;
 		this.correctIs = undefined;
 		this.charCorrect = undefined;
 		this.mosaic = undefined;
