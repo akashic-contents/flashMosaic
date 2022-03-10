@@ -27,7 +27,7 @@ export class Mosaic {
 		this.initMosaicImgList();
 		this.spr = new g.Sprite({
 			scene: _scene,
-			src: _scene.assets[this.imgList[0][0]]
+			src: _scene.asset.getImageById(this.imgList[0][0])
 		});
 		this.spr.moveTo(_center.x - (this.spr.width / 2), define.MOSAIC_Y);
 	}
@@ -52,7 +52,7 @@ export class Mosaic {
 	changeMosaicSprite(_currentQuestion: number): void {
 		spriteUtil.changeSpriteSurface(
 			this.spr,
-			this.scene.assets[this.imgList[_currentQuestion][this.level]]);
+			this.scene.asset.getImageById(this.imgList[_currentQuestion][this.level]));
 	}
 
 	/**
